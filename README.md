@@ -19,3 +19,4 @@ poetry install
 - cases/case_00.py - Read an audio file and save it in another format.
 - cases/case_01.py - Slice two audio files and concatenate them.
 - cases/case_02.py - Show the audio file's metadata.
+- cases/case_03.py - [Crossfade](assets/bass_pads_with_crossfade.mp3) and [Overlay](assets/bass_pads_drums_using_over_load.mp3) two audio files.

@@ -19,5 +19,8 @@ pydub = "^0.25.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.ruff]
+line-length = 79
+
 [tool.taskipy.tasks]
 format = "isort . & ruff format ."
