@@ -13,3 +13,8 @@ You can install it with the following command:
 ```bash
 poetry install
 ```
+
+## Cases
+
+cases/case_00.py - Read an audio file and save it in another format.
+cases/case_01.py - Slice two audio files, remove the beginning and the end of the files, and concatenate them.
