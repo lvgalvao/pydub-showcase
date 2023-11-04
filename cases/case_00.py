@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from pydub import AudioSegment
+from pydub.playback import play
 
 # Define the base assets directory
 assets_dir = Path("assets")
@@ -14,3 +15,6 @@ bass = AudioSegment.from_file(bass_wav_path)
 
 # Export the audio file to a different format
 bass.export(bass_mp3_path, format="mp3")
+
+# Play the audio file
+play(bass)
